@@ -15,7 +15,7 @@ const SettingsTab = ({ icon, title, onPress }: SettingsTabType) => {
   return (
     <TouchableOpacity onPress={onPress} className='flex flex-row justify-between items-center px-5 py-2 rounded-xl'>
       <View className='flex items-center flex-row gap-2 w-full'>
-        <Image source={icon} className='size-5' />
+        <Image source={icon} className='size-5 ' tintColor="#ff66c4"  />
         <Text className='font-rubik-medium text-lg  text-black-200'>{title}</Text>
       </View>
       <Image source={icons.rightArrow} className='size-5' />
@@ -25,29 +25,29 @@ const SettingsTab = ({ icon, title, onPress }: SettingsTabType) => {
 
 const settingsTabItems = [
   {
-    icons: icons.bell,
+    icons: icons.edit,
     title: 'Edit Profile',
     onPress: () => router.push('/edit-profile')
   }, {
-    icons: icons.bell,
+    icons: icons.shield,
     title: 'Account and Security',
     onPress: () => router.push('/account-security')
   },
   {
-    icons: icons.bell,
+    icons: icons.wallet,
     title: 'Balance',
     onPress: () => router.push('/balance')
   }, {
-    icons: icons.bell,
+    icons: icons.gift,
     title: 'Gifts History',
     onPress: () => router.push('/gifts-history')
   },
   {
-    icons: icons.bell,
+    icons: icons.withdraw,
     title: 'Withdraw Money',
     onPress: () => router.push('/withdraw-money')
   }, {
-    icons: icons.bell,
+    icons: icons.topup,
     title: 'Topup GM coins',
     onPress: () => router.push('/topup')
   }

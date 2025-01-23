@@ -31,6 +31,9 @@ import swim from "@/assets/icons/swim.png";
 import wifi from "@/assets/icons/wifi.png";
 import location from "@/assets/icons/location.png";
 import edit from "@/assets/icons/edit.png";
+import gift from "@/assets/icons/gift.png";
+import withdraw from "@/assets/icons/withdraw.png";
+import topup from "@/assets/icons/topup.png";
 
 export default {
   google,
@@ -66,4 +69,7 @@ export default {
   wifi,
   location,
   edit,
+  gift,
+  withdraw,
+  topup,
 };
