@@ -1,10 +1,11 @@
 import { View, Text } from 'react-native'
 import React from 'react'
+import Topnav from '@/components/Topnav'
 
 const TopupScreen = () => {
   return (
     <View>
-      <Text>TopupScreen</Text>
+      <Topnav title="Topup GM coins" />
     </View>
   )
 }
